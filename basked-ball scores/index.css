@@ -1,0 +1,214 @@
+
+
+body {
+    margin: 0;
+    
+}
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+.container {
+    display: flex;
+    justify-content:space-around;
+    
+    max-width: 1100px; 
+    position: relative;
+    margin: auto auto;
+    padding-top: 30px;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    color: aliceblue;
+    
+
+
+}
+.home-title {
+    position: absolute;
+    width: 148px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+
+
+    
+}
+.home-score-background {
+   position: absolute;
+   width: 155px;
+   height: 150px;
+   left: 82px;
+   top: 125px;
+   background: #080001;
+border-radius: 5px;
+
+}
+#score-home-el  {
+    position: relative;
+    width: 117px;
+    height: 148px;
+    margin: 0 auto;
+    top: 25px;
+    left: 28px;
+    font-family: 'Cursed Timer Ulil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+}
+ #one {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 60px;
+    top: 300px;
+
+   border: 2px solid #9AABD8;
+   border-radius: 5px;
+   /*background: none;*/
+   color: aliceblue;
+   line-height: 27.81px;
+ }
+ #two {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 130px;
+    top: 300px;
+
+   border: 2px solid #9AABD8;
+   border-radius: 5px;
+   /*background: none;*/
+   color: aliceblue;
+   line-height: 27.81px;
+ }
+ #three {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 200px;
+    top: 300px;
+    
+   border: 2px solid #9AABD8;
+   border-radius: 5px;
+   /*background: none;*/
+   color: aliceblue;
+   line-height: 27.81px;
+ }
+ .guest-title {
+    position: absolute;
+    width: 148px;
+    height: 36px;
+    left: 325px;
+    top: 68px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+ }
+.guest-score-background {
+   position: absolute;
+   width: 155px;
+   height: 150px;
+   left: 325px;
+   top: 125px;
+   background: #080001;
+   border-radius: 5px;
+}
+#score-guest-el {
+    position: relative;
+    width: 117px;
+    height: 148px;
+    margin: 0 auto;
+    top: 25px;
+    left: 28px;
+    font-family: 'Cursed Timer Ulil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+    }
+#guest-one {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 315px;
+    top: 300px;
+
+   border: 2px solid #9AABD8;
+   border-radius: 5px;
+   /*background: none;*/
+   color: aliceblue;
+   line-height: 27.81px;
+ }
+ #guest-two {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 385px;
+    top: 300px;
+
+   border: 2px solid #9AABD8;
+   border-radius: 5px;
+   /*background: none;*/
+   color: aliceblue;
+   line-height: 27.81px;
+ }
+ #guest-three {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 455px;
+    top: 300px;
+    
+   border: 2px solid #9AABD8;
+   border-radius: 5px;
+   /*background: none;*/
+   color: aliceblue;
+   line-height: 27.81px;
+ }
+ #refresh {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 225px;
+    top: 370px;
+    background-color: #9AABD8;
+    border-radius: 4px;
+    border: 2px solid white;
+    line-height: 28px;
+
+ }
+button {
+  font-family: 'Cursed Timer Ulil';
+  
+}
+button:hover {
+    transform: scale(1.1);
+}
+button.btn {
+    background: none;
+}

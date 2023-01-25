@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>basletball Scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+      <div class="container">
+        <div class="home-container">
+                <h3 class="home-title">HOME</h3>
+                
+                <div class="home-score-background">
+                <h3 id="score-home-el">0</h3>
+                 </div>
+           
+            <button class="btn" id="one" onclick="plusOneHome()">+1</button>
+            <button class="btn" id="two" onclick="plusTwoHome()">+2</button>
+            <button class="btn" id="three" onclick="plusThreeHome()">+3</button>
+            
+        </div>
+            <div class="guest-container">
+                <h3 class="guest-title">GUEST</h3>
+                <div class="guest-score-background">
+                    <h3 id="score-guest-el">0</h3>
+                </div>
+                <button class="btn" id="guest-one" onclick="plusOneGuest()">+1</button>
+                <button class="btn" id="guest-two" onclick="plusTwoGuest()">+2</button>
+                <button class="btn" id="guest-three" onclick="plusThreeGuest()">+3</button>
+            </div>
+            <button id="refresh" onclick="refreshPage()">New Game</button>
+      </div>
+        <script src="index.js"></script>
+    </body>
+</html>
